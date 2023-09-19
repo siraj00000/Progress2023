@@ -1,0 +1,129 @@
+.product {
+  width: 186px;
+  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.product img {
+  height: 123px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.product__info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.product p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.product .product__price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 16px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.-multi-product-wrapper {
+  width: 60%;
+}
+
+.-multi-product-wrapper > img {
+  width: 100%;
+  height: 335px;
+  object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, 0.17);
+}
+
+.-multi-product-wrapper .-multi-product-imgs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.-multi-product-wrapper .-multi-product-imgs img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+/* Product Banner */
+.product-banner__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(217, 217, 217, 0.25);
+  border: 1px solid #c6c6c6;
+}
+
+.product-banner__wrapper section {
+  width: 40%;
+}
+.product-banner__wrapper section:first-child {
+  text-align: center;
+  padding-right: 20px;
+}
+
+.product-banner__wrapper section:first-child img {
+  width: 205px;
+  height: 196px;
+  align-self: flex-end;
+}
+
+.product-banner__wrapper section:last-child:not(p) {
+  text-align: center;
+}
+
+.product-banner__wrapper .product__price {
+  margin-top: 10px;
+}
+
+.product__checkbox {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 28px !important;
+  height: 23px !important;
+
+  background: #f7f7f7;
+  border: 1px solid #868686;
+}
+
+.product__image-placeholder {
+  width: 100%;
+  max-width: 396px;
+}
+
+.product__image-placeholder img {
+  width: 396px;
+  height: 342px;
+  object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, 0.17);
+}
+
+.product__small-placeholder-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product__small-placeholder-wrapper img {
+  width: 60px;
+  height: 59px;
+  object-fit: cover;
+}

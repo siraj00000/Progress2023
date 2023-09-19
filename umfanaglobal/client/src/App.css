@@ -1,0 +1,70 @@
+.our-program {
+  @apply bg-light text-center shadow-[0px_5px_90px_0px_rgb(110_123_131_/_10%)] transition-all duration-[ease-in-out] delay-[0s] px-5 py-20;
+}
+
+.our-program:hover {
+  @apply bg-dark border-dark transition-all duration-[0.3s] ease-[ease-out] delay-[0s];
+}
+
+.our-program:hover .service-icon {
+  @apply bg-light text-dark transition-all duration-[0.3s] ease-[ease-out] delay-[0s];
+}
+
+.service-icon {
+  @apply bg-dark w-16 h-16 transition-all duration-[0.3s] ease-[ease-out] delay-[0s] text-white flex items-center justify-center relative z-[2] mb-5 mx-auto my-0 rounded-[5px];
+  transform-style: preserve-3d;
+}
+
+.service-icon::before {
+  @apply absolute content-[''] h-full w-full transition-all duration-[0.3s] ease-[ease-out] delay-[0s] z-[1] rounded-[5px] -left-2 -top-2;
+  background: #f9c6bb;
+  transform: translateZ(-1px);
+}
+
+.shadeTop {
+  clip-path: polygon(0 0, 0 96%, 96% 0);
+  background: #000;
+  width: 90%;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.shadeBottom {
+  clip-path: polygon(100% 100%, 4% 100%, 100% 4%);
+  background: #000;
+  width: 90%;
+  height: 800px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* 
+  * hide the carousel's navigators
+*/
+.testinmonial-carousel .group {
+  @apply hidden;
+}
+
+/* 
+  * set active custom color to carousel's indicator
+*/
+.testinmonial-carousel button {
+  @apply bg-white w-[20px] h-[20px] border-none;
+}
+
+.testinmonial-carousel div > div:has(button + button) {
+  position: absolute;
+  bottom: -100px;
+  left: 60%;
+  z-index: 9999;
+}
+
+/* 
+  * set inactive custom color to carousel's indicator
+*/
+.testinmonial-carousel .bg-white\/50 {
+  @apply bg-[#525252] w-[20px] h-[20px];
+}

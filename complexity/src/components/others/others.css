@@ -1,0 +1,41 @@
+.ButtonWithTextAndParagraph__wrapper {
+  width: 100%;
+  margin-top: 10%;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.ButtonWithTextAndParagraph__wrapper button {
+  width: 127px;
+  height: 43px;
+  background: #f8f5f5;
+  border: 1px solid #bab6b6;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #000000;
+  border-bottom: none;
+}
+
+.ButtonWithTextAndParagraph__wrapper p {
+  width: 100%;
+  background: #f8f5f5;
+  border: 1px solid #bab6b6;
+  padding: 18px;
+}
+
+.paraHeight1 {
+  height: 196px;
+}
+
+.paraHeight2 {
+  height: 444px;
+}

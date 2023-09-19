@@ -1,0 +1,43 @@
+.-main-profile {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.-main-profile section {
+  margin: 10%;
+  width: 337px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.-main-profile aside {
+  width: 100%;
+  height: 50px;
+  background: #d9d9d9;
+  padding: 5px;
+}
+
+.-main-profile section > aside:last-child {
+  display: flex;
+  align-items: center;
+}
+.-main-profile section > aside:last-child label{
+  width: 80px;
+}
+
+.-main-profile label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+
+  color: #000000;
+}

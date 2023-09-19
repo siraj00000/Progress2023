@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.text12 {
+  @apply text-12 leading-16;
+}
+
+.text14 {
+  @apply text-14 leading-24;
+}
+
+.text16 {
+  @apply text-16 leading-24 font-nunito700;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.flex-between {
+  @apply flex items-center justify-between;
+}
+
+.hoverMebottom:after {
+  width: 0;
+  height: 4px;
+  background: #2a92f5;
+  display: block;
+  content: "";
+  transition: width 1s ease-in-out;
+}
+.parent:hover .hoverMebottom:after {
+  width: 100%;
+}
+
+.blured {
+  border-radius: 32px;
+  background: rgba(217, 217, 217, 0.24);
+  backdrop-filter: blur(50px);
+}
+
+.deker-lambert-blured {
+  border-radius: 32px;
+  background: rgba(217, 217, 217, 0.24);
+  backdrop-filter: blur(50px);
+}
+
+.blured-bg-1 {
+  border-radius: 32px;
+  background: rgba(217, 217, 217, 0.24);
+  backdrop-filter: blur(50px);
+}
+
+.blured-bg-2 {
+  border-radius: 32px;
+  background: rgba(217, 217, 217, 0.24);
+  backdrop-filter: blur(50px);
+}
+
+.blured-bg-3 {
+  border-radius: 32px;
+  background: var(--ffffff, #fff);
+  backdrop-filter: blur(50px);
+}
+
+.box-shadow {
+  box-shadow: 0px 8px 24px 0px rgba(53, 53, 53, 0.16);
+}
+
+.plane-bg {
+  background: url("/public/SectionBgSVG.svg") center no-repeat;
+  background-size: cover;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+@media not all and (min-width: 300px) {
+  .file-lady {
+    width: 300px;
+  }
+}

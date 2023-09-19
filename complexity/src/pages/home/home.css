@@ -1,0 +1,26 @@
+.-main-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 8%;
+}
+
+.-main-home section {
+  flex: 1;
+  text-align: center;
+}
+
+.-main-home h1 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000;
+}
+
+.-main-home p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin-top: 10px;
+}

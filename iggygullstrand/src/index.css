@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Poppins:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-bgDark;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+/* Scroll bar */
+.scrollbar::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-darkPrimary outline-white rounded-full;
+}
+
+.poppins600 {
+  @apply font-poppins font-semibold;
+}
+
+.poppins400 {
+  @apply font-poppins font-normal;
+}
+
+.poppins700 {
+  @apply font-poppins font-bold;
+}
+
+.nunito600 {
+  @apply font-nunito font-bold;
+}
+
+.custom-input-field {
+  @apply h-48 py-12 px-16 rounded-16 bg-darkHard text-white placeholder:text-[#969696] text-15 poppins400 mt-8 outline-none;
+}
+
+.custom-button {
+  background: var(
+    --gradient-3,
+    linear-gradient(90deg, #16bf5d 0%, #0a9141 100%)
+  );
+  @apply py-12 px-16 rounded-16 text-15 outline-none;
+}
+
+.per-bg-grad {
+  background: rgba(49, 212, 130, 0.12);
+}
+
+.billing-card-grad {
+  border-radius: 16px 16px 0px 0px;
+  background: linear-gradient(
+      135deg,
+      rgba(113, 201, 236, 0.9) 0%,
+      rgba(131, 63, 180, 0.9) 100%
+    ),
+    #282830;
+  color: white;
+}
+
+.billing-card-grad a {
+  color: #833fb4;
+  background: white;
+}
+
+.billing-our-planV2 {
+  border-radius: 16px;
+  border: 1.5px solid var(--white-4, #d0d0d0);
+  background: linear-gradient(
+    90deg,
+    rgba(113, 201, 236, 0.25) 0%,
+    rgba(131, 63, 180, 0.25) 100%
+  );
+}
+
+/* CHECKBOX TOGGLE SWITCH */
+/* @apply rules for documentation, these do not work as inline style */
+.toggle-checkbox:checked {
+  @apply: right-0 border-green-400;
+  right: 0;
+  border-color: #68D391;
+}
+.toggle-checkbox:checked + .toggle-label {
+  @apply: bg-green-400;
+  background-color: #68D391;
+}

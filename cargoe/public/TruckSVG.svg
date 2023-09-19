@@ -1,0 +1,30 @@
+<svg width="88" height="88" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="88" height="88" fill="#111111"/>
+<g clip-path="url(#clip0_0_1)">
+<rect width="1440" height="7600" transform="translate(-272 -5496)" fill="white"/>
+<g filter="url(#filter0_d_0_1)">
+<rect x="-84" y="-24" width="254" height="256" rx="24" fill="white"/>
+</g>
+<circle cx="44" cy="44" r="44" fill="#DEEFFF"/>
+<rect x="22" y="27" width="45" height="34" fill="url(#pattern0)"/>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-108" y="-40" width="302" height="304" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="8"/>
+<feGaussianBlur stdDeviation="12"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.208333 0 0 0 0 0.208333 0 0 0 0 0.208333 0 0 0 0.16 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_0_1" transform="scale(0.0222222 0.0294118)"/>
+</pattern>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="7600" fill="white" transform="translate(-272 -5496)"/>
+</clipPath>
+<image id="image0_0_1" width="45" height="34" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAiCAQAAABhRZjEAAABkUlEQVR42u2WzZHCMAyFKcFHW++SElwCJbiDpQPSAekAOoDTXpMO4Lp7IR1AB0kHZqQ4JMACZgZfmLUnh/zoG0WS9TSZ/K/PWLBUooGP3XSgtVJR4HjoGB8BpwqeNlFehKUz1PAmf+51A/8KWNxx8FQ9R3v4V7Ojp/DYJUZzaCT2JWwitOxZgoAohRVz9DRJrAXeXITlfWmUMt6Pqu19aKUk8tskxacUWnhaJ6lrWIaHWnn3kcFM6twlOY1UhPaV4qBjJ+0rBdrk8FglQYf3n4BmnaQD7R+r3yWaHLZosDXzB+iuJnv101kMmjYjm/ISXffNUGcsZlToDPaqG9xFs5ShxUwpcnwOO8UM76VQGixpQeWgeErBk6fFzXa9KR343vwMEiCKKU+ZhFXfafl3+CrOEaz/HhPOXp1tBgEYfdeGzg1rcirM9xCt4HVxs11/KLp78zuMDeL1UZ7mV3nqWiKWsHpK+6hxoPO/MXNYfHGm7k4nXSrCrx7jppM+nGJTPZ7/NqixoyJ+7CFHFdtcK/oJ01lmhP1mGQsAAAAASUVORK5CYII="/>
+</defs>
+</svg>

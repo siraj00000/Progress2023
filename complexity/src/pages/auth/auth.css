@@ -1,0 +1,162 @@
+.-main-auth section {
+  max-width: 402px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 36px;
+  margin: 0 auto;
+}
+
+.-main-auth section button,
+.-main-auth section .MuiTextField-root {
+  width: 100% !important;
+  height: 50px !important;
+}
+
+.-main-auth aside {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+.-main-auth aside form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  padding: 0 10px;
+  text-align: left;
+}
+
+.-main-auth form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+.social-button {
+  text-align: left;
+  padding: 0;
+}
+
+.social-button button {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2d333a;
+  justify-content: start;
+}
+
+.-main-auth p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #2d333a;
+}
+
+.-main-auth a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #1c89b6;
+  text-decoration: none;
+}
+
+.-main-auth h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.18px;
+  color: #2d333a;
+}
+
+.-main-auth h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #2d333a;
+}
+
+.-main-auth .MuiTextField-root::placeholder {
+  color: #858585;
+}
+
+.emailbox {
+  width: 100%;
+  height: 56px;
+  border: 1px solid #c2c8d0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16.5px 14px;
+}
+
+.emailbox h3 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #2d333a;
+}
+
+.emailbox button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 0.15px;
+  color: #007bad;
+  max-width: fit-content;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Password Validator Styling */
+.validators-container {
+  padding: 16px;
+  border: 1px solid #c2c8d0;
+  border-radius: 2px;
+}
+
+.validators-container h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #2d333a;
+  margin-bottom: 15px;
+}
+
+.validators-container ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.validators-container ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #858585;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
